@@ -1,0 +1,6 @@
+<%= link_to("Return to Movies Index", movies_url) %>
+<div class="container">
+  <h1>List of movies with Actor: <%= @star.name %></h1>
+  <%= render partial: 'movie_row', collection: @star.movies %>
+  <br>
+</div> <!-- end of class: container -->

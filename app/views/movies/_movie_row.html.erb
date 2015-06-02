@@ -1,0 +1,15 @@
+
+<div class="row border-bottom">
+
+  <div class="col-xs-12 col-md-6">
+      <%= image_tag(movie_row.poster, size: "200") %>
+  </div>
+
+  <div class="col-xs-12 col-md-6">
+    <ul>
+      <li><h3><%= link_to(movie_row.title, movie_url(movie_row.id)) %></h3></li>
+      <li><h4>Year: <%= movie_row.year %></h4></li>
+      <li><h4>Ratings: <%= movie_row.rating %></h4></li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+// Place all the styles related to the movies controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.title {
+  color: black;
+  position: absolute;
+  top: 10px;
+  width: 940px;
+  text-align: center;
+}
+
+.wrap {
+  background-image: url("header_image.jpg");
+  opacity: 0.5;
+  height: 100px;
+  background-size: contain;
+  display: block;
+}
+
+
+.bg-image {
+  background-image: url("header_image.jpg");
+  display: block;
+  background-size: contain;
+  height: 100px;
+  opacity: 0.5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #878585;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

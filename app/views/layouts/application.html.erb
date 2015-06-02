@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cfmdb</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container">
+    <div class="wrap"></div>
+    <div class="title">
+      <h1>CODER FACTORY MOVIE DATABASE</h1>
+    </div>
+    <div class="row">
+      <!--<div class="bg-image"></div>
+      <div class="center-block">
+        <h1 class ="text-center title">Coder Factory Movie Database</h1>
+      </div>-->
+    </div>
+
+    <%= yield %>
+  </div>
+</div>
+
+</body>
+</html>
